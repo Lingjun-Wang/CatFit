@@ -1,0 +1,54 @@
+********************
+Welcome to CatFit!
+********************
+
+CatFit is a python project developed by Dr. Lingjun Wang and Hai Yu to fit the
+observed bolometric and multiband light curves of supernovae and other similar
+transients. The models are semi-analytical models based on Arnett (1980, 1982),
+Arnett & Fu (1989), and Chatzopoulos et al. (2012).
+The code was developed during the writing of the following papers:
+https://ui.adsabs.harvard.edu/abs/2016ApJ...821...22W/abstract
+https://ui.adsabs.harvard.edu/abs/2017ApJ...837..128W/abstract
+https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.1110W/abstract
+and Wang et al. (2022).
+
+1. Software requirements
+-------------------------
+The user needs to have Python 3.4 or above installed in a Mac, Windows or
+Linux machine. The following python packages are utilized in CatFit:
+1) scipy, 2) numpy, 3) emcee, 4) matplotlib, 5) astropy, 6) multiprocessing.
+These can be easily installed either via the Anaconda python framework or one
+of the package managers available for Macosx and Linux platforms (e.g. 
+Homebrew, Macports, Fink).
+
+2. Running CatFit
+-------------------------
+CatFit is designed to be user-friendly.
+
+To run CatFit simply type the following command in a terminal window:
+
+> python multi-interaction.py <demo.conf>
+
+The configuration file is used to specify the fitting parameters. It was 
+originally designed for the mcmc code (Wang et al. 2017).
+
+3. Troubleshooting
+-------------------
+
+The users are welcome to submit bug reports/errors by E-mail to:
+wanglingjun@ihep.ac.cn.
+
+4. Repository distribution
+----------------------------------------
+
+CatFit can be obtained through a git repository by typing:
+> git clone https://github.com/Lingjun-Wang/CatFit
+If you make use of CatFit for your publications please reference it
+appropriately.
+
+5. Copyright and disclaimer notice
+-----------------------------------
+
+CatFit, (copyright 2016-2022) is property of Drs. Lingjun Wang, Hai Yu and 
+NAOC and IHEP.
+
