@@ -2,7 +2,8 @@
 Welcome to CatFit!
 ********************
 
-CatFit is a python project developed by Dr. Lingjun Wang and Hai Yu to fit the
+CatFit is a python project developed by Dr. Lingjun Wang 
+(ORCID: 0000-0002-8352-1359) and Hai Yu (ORCID: 0000-0002-1840-8835) to fit the
 observed bolometric and multiband light curves of supernovae and other similar
 transients. The models are semi-analytical models based on Arnett (1980, 1982),
 Arnett & Fu (1989), and Chatzopoulos et al. (2012).
@@ -30,7 +31,9 @@ To run CatFit simply type the following command in a terminal window:
 > python multi-interaction.py <demo.conf>
 
 The configuration file is used to specify the fitting parameters. It was 
-originally designed for the mcmc code (Wang et al. 2017).
+originally designed for the mcmc code (Wang et al. 2017). The program
+produces a file named "output.txt" that is self-explaining for every column
+of the data.
 
 3. Troubleshooting
 -------------------
@@ -50,5 +53,6 @@ appropriately.
 -----------------------------------
 
 CatFit, (copyright 2016-2022) is property of Drs. Lingjun Wang, Hai Yu and 
-NAOC and IHEP.
+National Astronomical Observatories, Institute of High Energy Physics of 
+Chinese Academy of Sciences, and Nanjing University.
 

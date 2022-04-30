@@ -1,0 +1,5 @@
+
+ Copyright (C) 2016-2022, Institute of High Energy Physics
+
+ Everyone is permitted to copy, distribute and change the software,
+ but changing this license document is not allowed.
